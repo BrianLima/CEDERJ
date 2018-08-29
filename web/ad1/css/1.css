@@ -1,0 +1,23 @@
+body {
+    background: #99CCCC;
+    color: #883322;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+
+address {
+    text-align: right;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.main {
+    text-align: center;
+}
+
+.index-list {
+    text-decoration: underline;
+}
+
