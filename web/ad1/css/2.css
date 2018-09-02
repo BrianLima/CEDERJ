@@ -1,0 +1,143 @@
+body {
+    background: #99CCCC;
+    color: #883322;
+    font-family: Stoke, Verdana, Liberation;
+    font-size: 16pt;
+}
+
+header {
+    display: block; margin-bottom: 1px;
+}
+
+nav {
+    display: block;
+    width: 170px;
+    float: left;
+    margin-right: 10pt;
+    font-weight: bold;
+    font-family: Stoke, Verdana, Liberation;
+}
+
+section {
+    display: block;
+    width: 77%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Stoke, Verdana, Liberation;
+}
+
+a::after {
+
+}
+
+ul {
+    line-height: 200%;
+    list-style-type: square;
+}
+
+div {
+    display: flow-root;
+}
+
+nav ul {
+    color: #883322;
+    line-height: 230%;
+    margin-top: 40px;
+}
+
+.ender {
+    text-align: right;
+    font-size: 15px;
+    line-height: 140%;
+    float:right;
+}
+
+.imgLogo {
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    padding-bottom: 15px;
+    float: left;
+}
+
+.apres {
+    text-align: center;
+    font-size: 18px;
+    float: right;
+}
+
+.lista {
+    float: left;
+}
+
+h3 {
+    color: #883322;
+}
+
+.listaMesas {
+    color: #000000;
+    line-height: 200%;
+    list-style-type: lower-roman;
+    font-family: Raleway, Arial, Ubuntu;
+}
+
+.tabCadeira {
+    border-style: solid, thin;
+    border-collapse: collapse;
+    margin-top: 6px;
+    background-color: #D5D1CF;
+    font-family: Raleway, Arial, Ubuntu;
+}
+
+td {
+    border: 3px solid ;
+    padding: 6px 12px 6px 12px;
+    color: #000000;
+    border-color: #96867c;
+}
+
+th {
+    border: 3px solid ;
+    padding: 6px 12px 6px 12px;
+    color: #000000;
+    border-color: #96867c;
+}
+
+.titulo {
+    color: #EEEE00;
+    background-color: #8C7B70;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.linTH {
+    background-color: #B8AEA9;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.colTH {
+    background-color: #B8AEA9;
+    text-align: left;
+    font-weight: bold;
+}
+
+.imgCel {
+    background-color: #ffffff;
+}
+
+.preco {
+    color: #DD0000;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.imgCadeira {
+    width: 60px;
+    height: 78px;
+}
