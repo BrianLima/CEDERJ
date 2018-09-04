@@ -215,3 +215,7 @@ tPhone {
 .tValMes, .tValAno {
     width: 30px;
 }
+.btn {
+    display: block;
+    text-align: right;
+}
