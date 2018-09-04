@@ -141,3 +141,77 @@ th {
     width: 60px;
     height: 78px;
 }
+
+.fsForm {
+    width: 590px;
+    align-self: center;
+    clear: both;
+}
+
+.fsResDir {
+    width: 260px;
+    height: 280px;
+    line-height: 190%;
+    float: right;
+}
+
+.fsResEsq {
+    width: 290px;
+    height: 280px;
+    line-height: 120%;
+    float: left;
+}
+
+.fsCartao {
+    color: #000000;
+    background-color: #D5D1CF
+}
+
+form {
+    float: right;
+}
+
+fieldset {
+    background-color: #B8AEA9;
+    color: #000000;
+    margin-bottom: 10pt;
+}
+
+label {
+    display: block;
+}
+
+.lCpf {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tName {
+    width: 240px;
+}
+
+.tAdress {
+    width: 70%;
+    margin-left: 10px;
+}
+
+.tEmail {
+    width: 205;
+}
+
+tPhone {
+    width: 50px;
+    margin-left: 18pt;
+}
+
+.dNameCpf, .dTelEmail {
+    display: flex;
+}
+
+.tNumero {
+    width: 110px;
+}
+
+.tValMes, .tValAno {
+    width: 30px;
+}

@@ -1,0 +1,108 @@
+<DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./css/2.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Stoke" rel="stylesheet"/> 
+
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>TOURO SENTADO</title>
+  </head>
+  <body>
+
+    <div>
+      <header class="imgLogo">
+        <img src="./img/TouroSentadoLogoPq.png"/>
+      </header>
+      <header class="ender">
+        <address >Avenida Toro,1103<br/>Cel: (11) 4002-8922<br/>briano.dev@outlook.com</address>
+      </header>
+      <br/>
+    </div>
+
+      <nav>
+        <ul>
+          <li><a href="2.html">Apresentação</a></li>
+          <li><a href="3.html">Mesas</a></li>
+          <li><a href="4.html">Cadeiras</a></li>
+          <li><a href="5.html">Compras</a></li>
+        </ul>
+      </nav>
+      <section>
+          <fieldset class="fsForm">
+            <legend>Dados de identificação</legend>
+            <div class="dNameCpf">
+              <label>Nome: <input class="tName" type="text" /></label> 
+              <label class="lCpf">CPF: <input class="tCpf" type="text" /></label> 
+            </div>      
+            <div class="dTelEmail">
+              <label>Telefone: <input class="tPhone" type="text" /> </label> 
+              <label class="lEmail">Email: <input class="tEmail" type="text" /></label> 
+            </div>      
+            <label>Endereço: <input class="tAddres" type="text" /> </label> 
+          </fieldset>
+          <fieldset class="fsResEsq">
+            <legend>Produtos</legend>
+
+            <label>Mesas: 
+              <select class="sMesas">
+                <optgroup label="Diretor">
+                  <option>Alfamob Sigma</option>
+                  <option>Alfa Painel S40m136</option>
+                </optgroup>
+                <optgroup label="Reunião">
+                  <option>Alfamob Corp Semi oval</option>
+                </optgroup>
+              </select>
+            </label>
+
+            <label>
+              Cadeiras: 
+              <select class="sCadeiras">
+                <optgroup label="Secretária">
+                  <option>Veneza 658 Fixa Couro</option>
+                  <option>Turim Gir Couro</option>
+                  <option>Matriz EXP Gir Tecido</option>
+                </optgroup>
+                <optgroup label="Presidente">
+                    <option>Firenze 560 Couro</option>
+                    <option>Ipanema Prime Couro</option>
+                  </optgroup>
+              </select>
+            </label>
+
+            <label>Selecionados: <button>Remover</button></label>
+            <textarea readonly=true></textarea>
+            <label > Valor: <input /></label>
+          </fieldset>
+          <fieldset class="fsResDir">
+            <legend>Forma de Pagamento</legend>
+
+            <form> 
+              <input type="radio">Cartão Visa</input><br/>
+              <input type="radio">Cartão MasterCard</input><br/>
+              <input type="radio">Boleto Bancário</input>
+            </form>
+
+            <label> 
+              Parcelas
+              <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </label>
+
+            <fieldset class="fsCartao">
+              <legend>Dados do Cartão</legend>
+              <label> Numero: <input class="tNumero"/></label>
+              <label style="display:-webkit-inline-box">Validade: <input class="tValMes"> <label>/<input class="tValAno" /></label>   </input> </label>  
+            </fieldset>
+          </fieldset>
+      </section>
+
+  </body>
+</html>
